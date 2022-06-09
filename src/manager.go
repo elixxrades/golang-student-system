@@ -19,7 +19,7 @@ func (m *StudentManagerModel) CreateUser(student *Student) *Student {
 }
 
 func (m *StudentManagerModel) UpdateUser(student *Student) {
-
+	// TODO: Update User Function.
 	m.RemoveUserWithUUID(student.UUID.String())
 	m.CreateUser(student)
 }

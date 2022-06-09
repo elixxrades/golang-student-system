@@ -17,6 +17,8 @@ import (
 	"time"
 )
 
+// TODO: Make a readme :(
+
 func main() {
 	a := app.New()
 	w := a.NewWindow("Hello")
